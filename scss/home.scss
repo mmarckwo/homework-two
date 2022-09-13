@@ -1,0 +1,66 @@
+.home {
+  .mainTitle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: fit-content;
+    margin: 0 auto;
+
+    h1 {
+      max-width: 600px;
+      font-size: 100px;
+      font-weight: 700;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 25px;
+      font-weight: 200;
+      color: rgb(120, 120, 120);
+    }
+
+    .buttonLinks {
+      width: 70%;
+      margin: 0 auto;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+
+      a {
+        text-decoration: none;
+        color: rgb(120, 120, 120);
+        background-color: rgb(240, 240, 240);
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      #firstBtn {
+        background-color: rgb(67, 122, 184);
+        color: white;
+      }
+    }
+  }
+
+  .textBoxArea {
+    width: 50%;
+    margin: 0 auto;
+    .textBoxRow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      .textBox {
+        width: 200px;
+        min-height: 320px;
+
+        h2 {
+          font-weight: 500;
+        }
+
+        p {
+          font-weight: 300;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

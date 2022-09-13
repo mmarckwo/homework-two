@@ -1,0 +1,136 @@
+.about {
+  .topTextArea {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    margin: 0 auto;
+
+    .topTextSizeWrapper {
+      width: 50%;
+
+      h1 {
+        width: fit-content;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 7px;
+      }
+
+      p {
+        margin-bottom: 10px;
+        font-weight: 300;
+        font-size: 18px;
+        color: rgb(120, 120, 120);
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(67, 122, 184);
+      }
+    }
+  }
+
+  .teamArea {
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(60, 60, 60, 0.12);
+    margin: 0 auto;
+    display: flex;
+
+    .teamTextDesc {
+      max-width: 30%;
+      margin-right: 35px;
+
+      h2 {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-weight: 300;
+        color: rgb(120, 120, 120);
+      }
+    }
+
+    .teamMemberColumn {
+      width: 100%;
+
+      .teamMemberCard {
+        background-color: rgb(250, 250, 250);
+        padding: 50px;
+        border-radius: 8px;
+        display: flex;
+        position: relative;
+        margin-bottom: 20px;
+
+        .profileImgColumn {
+          width: 30%;
+          display: flex;
+          justify-content: center;
+
+          .profileImgWrapper {
+            height: 50%;
+
+            img {
+              height: 100%;
+              border-radius: 100%;
+            }
+          }
+        }
+
+        .titleAndInfo {
+          margin-left: 20px;
+
+          h1 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 7px;
+          }
+
+          p {
+            color: rgb(120, 120, 120);
+          }
+
+          .infoPoints {
+            height: 100%;
+
+            ul {
+              list-style-position: inside;
+              li {
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+
+        .supportBtn {
+          position: absolute;
+          margin-right: 20px;
+          margin-top: 30px;
+          top: 0;
+          right: 0;
+
+          a {
+            text-decoration: none;
+            color: red;
+            border: 1px solid red;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    .teamArea {
+      display: block;
+
+      .teamTextDesc {
+        max-width: 100%;
+      }
+    }
+  }
+}

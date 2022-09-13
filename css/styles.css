@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Albert Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 55px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(60, 60, 60, 0.12);
+}
+nav .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo a {
+  height: 100%;
+}
+nav .logo a img {
+  height: 100%;
+}
+nav .logo p {
+  height: 100%;
+  font-size: 28px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  color: black;
+}
+nav .links {
+  margin-right: 20px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px 5px 10px;
+}
+nav .links a:hover {
+  color: rgb(180, 180, 180);
+}
+
+.home .mainTitle {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.home .mainTitle h1 {
+  max-width: 600px;
+  font-size: 100px;
+  font-weight: 700;
+}
+.home .mainTitle p {
+  max-width: 600px;
+  font-size: 25px;
+  font-weight: 200;
+  color: rgb(120, 120, 120);
+}
+.home .mainTitle .buttonLinks {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.home .mainTitle .buttonLinks a {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-radius: 8px;
+}
+.home .mainTitle .buttonLinks #firstBtn {
+  background-color: rgb(67, 122, 184);
+  color: white;
+}
+.home .textBoxArea {
+  width: 50%;
+  margin: 0 auto;
+}
+.home .textBoxArea .textBoxRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.home .textBoxArea .textBoxRow .textBox {
+  width: 200px;
+  min-height: 320px;
+}
+.home .textBoxArea .textBoxRow .textBox h2 {
+  font-weight: 500;
+}
+.home .textBoxArea .textBoxRow .textBox p {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.about .topTextArea {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+.about .topTextArea .topTextSizeWrapper {
+  width: 50%;
+}
+.about .topTextArea .topTextSizeWrapper h1 {
+  width: fit-content;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.about .topTextArea .topTextSizeWrapper p {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgb(120, 120, 120);
+}
+.about .topTextArea .topTextSizeWrapper a {
+  text-decoration: none;
+  color: rgb(67, 122, 184);
+}
+.about .teamArea {
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(60, 60, 60, 0.12);
+  margin: 0 auto;
+  display: flex;
+}
+.about .teamArea .teamTextDesc {
+  max-width: 30%;
+  margin-right: 35px;
+}
+.about .teamArea .teamTextDesc h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.about .teamArea .teamTextDesc p {
+  font-weight: 300;
+  color: rgb(120, 120, 120);
+}
+.about .teamArea .teamMemberColumn {
+  width: 100%;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard {
+  background-color: rgb(250, 250, 250);
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .profileImgColumn {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .profileImgColumn .profileImgWrapper {
+  height: 50%;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .profileImgColumn .profileImgWrapper img {
+  height: 100%;
+  border-radius: 100%;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo {
+  margin-left: 20px;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo p {
+  color: rgb(120, 120, 120);
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo .infoPoints {
+  height: 100%;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo .infoPoints ul {
+  list-style-position: inside;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo .infoPoints ul li {
+  margin-bottom: 10px;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .supportBtn {
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 30px;
+  top: 0;
+  right: 0;
+}
+.about .teamArea .teamMemberColumn .teamMemberCard .supportBtn a {
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about .teamArea {
+    display: block;
+  }
+  .about .teamArea .teamTextDesc {
+    max-width: 100%;
+  }
+}
+footer {
+  background-color: rgb(250, 250, 250);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(60, 60, 60, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(80, 80, 80);
+  font-size: 14px;
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 100;
+}
+footer p {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=styles.css.map */
