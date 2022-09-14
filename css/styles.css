@@ -143,7 +143,7 @@ nav .links a:hover {
 .about .topTextArea .topTextSizeWrapper p {
   margin-bottom: 10px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(120, 120, 120);
 }
 .about .topTextArea .topTextSizeWrapper a {
@@ -164,11 +164,12 @@ nav .links a:hover {
 }
 .about .teamArea .teamTextDesc h2 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 .about .teamArea .teamTextDesc p {
   font-weight: 300;
+  font-size: 20px;
   color: rgb(120, 120, 120);
 }
 .about .teamArea .teamMemberColumn {
@@ -188,10 +189,11 @@ nav .links a:hover {
   justify-content: center;
 }
 .about .teamArea .teamMemberColumn .teamMemberCard .profileImgColumn .profileImgWrapper {
-  height: 50%;
+  height: 100%;
 }
 .about .teamArea .teamMemberColumn .teamMemberCard .profileImgColumn .profileImgWrapper img {
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 100%;
 }
 .about .teamArea .teamMemberColumn .teamMemberCard .titleAndInfo {
@@ -268,7 +270,7 @@ nav .links a:hover {
 .services .leftSide section p {
   margin-bottom: 10px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
 }
 .services .rightSide {
   display: flex;
@@ -281,6 +283,63 @@ nav .links a:hover {
   text-decoration: none;
   margin-bottom: 16px;
   color: rgb(67, 122, 184);
+}
+
+.endorsements .pageHeaderText {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.endorsements .pageHeaderText h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+.endorsements .pageHeaderText p {
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(120, 120, 120);
+}
+.endorsements .endorseBoxes {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.endorsements .endorseBoxes .doubleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.endorsements .endorseBoxes .doubleBox .textBox {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+  width: 48%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.endorsements .endorseBoxes .doubleBox .textBox h2 {
+  font-weight: 500;
+}
+.endorsements .endorseBoxes .doubleBox .textBox p {
+  font-weight: 300;
+  font-size: 18px;
+}
+.endorsements .endorseBoxes .doubleBox .textBox .imgWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+.endorsements .endorseBoxes .doubleBox .textBox .imgWrapper img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer {

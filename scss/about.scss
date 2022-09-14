@@ -18,7 +18,7 @@
       p {
         margin-bottom: 10px;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 20px;
         color: rgb(120, 120, 120);
       }
 
@@ -43,12 +43,13 @@
 
       h2 {
         font-weight: 500;
-        font-size: 22px;
+        font-size: 24px;
         margin-bottom: 10px;
       }
 
       p {
         font-weight: 300;
+        font-size: 20px;
         color: rgb(120, 120, 120);
       }
     }
@@ -70,10 +71,11 @@
           justify-content: center;
 
           .profileImgWrapper {
-            height: 50%;
+            height: 100%;
 
             img {
-              height: 100%;
+              max-width: 100%;
+              height: auto;
               border-radius: 100%;
             }
           }

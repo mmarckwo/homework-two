@@ -68,7 +68,7 @@ var aboutContent = `<div class="about">
     <div class="teamMemberCard">
       <div class="profileImgColumn">
         <div class="profileImgWrapper">
-          <img src="images/founder.png" alt="founder" />
+          <img src="images/profileImgs/founder.png" alt="founder" />
         </div>
       </div>
       <div class="titleAndInfo">
@@ -90,7 +90,7 @@ var aboutContent = `<div class="about">
     <div class="teamMemberCard">
       <div class="profileImgColumn">
         <div class="profileImgWrapper">
-          <img src="images/cofounder.png" alt="cofounder" />
+          <img src="images/profileImgs/cofounder.png" alt="cofounder" />
         </div>
       </div>
       <div class="titleAndInfo">
@@ -162,6 +162,83 @@ var servicesContent = `<div class="services">
   <a href="#provide">What we provide</a>
   <a href="#cleaning">Cleaning</a>
   <a href="#sealife">Sea Life</a>
+</div>
+</div>`;
+
+var endorseContent = `<div class="endorsements">
+<div class="pageHeaderText">
+  <h1>Endorsements</h1>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+    voluptatum sit perferendis. Iure assumenda officiis aliquid
+    consectetur maxime eum qui illo earum alias modi deleniti, ab
+    praesentium!
+  </p>
+</div>
+<div class="endorseBoxes">
+  <div class="doubleBox">
+    <div class="textBox">
+      <h2>Sea Salvation</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit,
+        nesciunt? Quam itaque odio tenetur reprehenderit commodi!
+        Exercitationem veritatis explicabo adipisci modi, illo, sit
+        dolorum quia eligendi sint alias delectus qui. Quos, culpa omnis
+        inventore maiores fugit eveniet qui.
+      </p>
+      <div class="imgWrapper">
+        <img
+          src="images/endorseImgs/sea_salvation.png"
+          alt="sea salvation"
+        />
+      </div>
+    </div>
+    <div class="textBox">
+      <h2>River Watchers</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Aspernatur labore molestiae velit, omnis tempora fugit
+        necessitatibus consequuntur, sapiente earum sunt praesentium
+        repellat deserunt at iure tempore amet quia. Dolores, quis.
+        Minus adipisci fugiat dolorem necessitatibus repellat nisi
+        sequi?
+      </p>
+      <div class="imgWrapper">
+        <img
+          src="images/endorseImgs/river_watchers.png"
+          alt="river watchers"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="doubleBox">
+    <div class="textBox">
+      <h2>Pacific Protection Program</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Officiis minus vel magni sint, tenetur earum! Nesciunt fuga
+        quaerat consequuntur vel! Quos quidem eius ex pariatur iusto,
+        deleniti rerum vitae libero.
+      </p>
+      <div class="imgWrapper">
+        <img
+          src="images/endorseImgs/pacific_protect.png"
+          alt="pacific protection program"
+        />
+      </div>
+    </div>
+    <div class="textBox">
+      <h2>Fish Haven</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Laboriosam aliquam earum voluptate nesciunt voluptatem,
+        exercitationem error incidunt maxime.
+      </p>
+      <div class="imgWrapper">
+        <img src="images/endorseImgs/fish_haven.png" alt="fish haven" />
+      </div>
+    </div>
+  </div>
 </div>
 </div>`;
 

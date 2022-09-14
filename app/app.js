@@ -12,6 +12,6 @@ function initListeners() {
 
 $(document).ready(function () {
   // comment out setcurrentpagecontent when developing new pages.
-  // MODEL.setCurrentPageContent("home");
+  MODEL.setCurrentPageContent("home");
   initListeners();
 });
