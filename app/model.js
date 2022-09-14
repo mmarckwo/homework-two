@@ -113,6 +113,58 @@ var aboutContent = `<div class="about">
 </div>
 </div>`;
 
+var servicesContent = `<div class="services">
+<div class="leftSide">
+  <section id="provide">
+    <h1>What we provide</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      Laudantium, ipsam iure. Repudiandae, excepturi accusantium,
+      debitis, eligendi suscipit ullam earum cupiditate voluptatem ipsam
+      explicabo numquam ducimus. Id sapiente praesentium quaerat
+      laborum. Voluptatem eaque fugiat provident quam deleniti in? Omnis
+      iste praesentium quidem soluta excepturi pariatur. Velit
+      reiciendis nobis natus expedita non minima necessitatibus.
+    </p>
+  </section>
+  <section id="cleaning">
+    <h2>Cleaning</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Consequuntur provident illum commodi quae rerum laborum officiis
+      aliquam laudantium! Quia eius repudiandae incidunt totam quos
+      eligendi veritatis debitis, voluptatibus fuga cumque. Magnam rem
+      quia ab ducimus nam. Obcaecati quasi quibusdam ducimus consequatur
+      sequi distinctio qui exercitationem? Eaque similique culpa enim.
+      Dolores a eum error aliquid cupiditate provident deserunt libero
+      distinctio explicabo.
+    </p>
+  </section>
+  <section id="sealife">
+    <h2>Sea Life</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+      quidem est doloribus aperiam nesciunt id pariatur voluptates
+      deleniti atque dolor molestiae porro praesentium odio culpa quos
+      debitis a, fugit in! Delectus neque rem eveniet maiores optio
+      distinctio pariatur nulla architecto perferendis eaque illo ipsa,
+      tempore accusantium cumque nemo vero vel perspiciatis eum! Illum
+      doloribus repudiandae, aperiam maiores provident eligendi
+      doloremque. Repellat eaque vero pariatur reiciendis quo,
+      consequuntur, at hic sequi voluptas, sunt sed ullam non. Assumenda
+      natus labore facilis atque ipsa deserunt. Commodi voluptatem ad
+      consequuntur accusamus sapiente, reiciendis ut.
+    </p>
+  </section>
+</div>
+<div class="rightSide">
+  <p>Page Content</p>
+  <a href="#provide">What we provide</a>
+  <a href="#cleaning">Cleaning</a>
+  <a href="#sealife">Sea Life</a>
+</div>
+</div>`;
+
 function setCurrentPageContent(pageID) {
   let contentName = pageID + "Content";
   $("#app").html(eval(contentName));

@@ -236,6 +236,53 @@ nav .links a:hover {
     max-width: 100%;
   }
 }
+.services {
+  display: flex;
+  justify-content: center;
+}
+.services .leftSide {
+  width: 40%;
+  margin-right: 50px;
+}
+.services .leftSide section:last-child {
+  border-bottom: none;
+}
+.services .leftSide section {
+  padding-bottom: 50px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(60, 60, 60, 0.12);
+}
+.services .leftSide section h1 {
+  padding-top: 50px;
+  width: fit-content;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.services .leftSide section h2 {
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.services .leftSide section p {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.services .rightSide {
+  display: flex;
+  flex-direction: column;
+}
+.services .rightSide p {
+  margin-top: 50px;
+}
+.services .rightSide a {
+  text-decoration: none;
+  margin-bottom: 16px;
+  color: rgb(67, 122, 184);
+}
+
 footer {
   background-color: rgb(250, 250, 250);
   padding-top: 20px;
